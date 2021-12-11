@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="methods">
+  <test name="Test(failed)" parallel="methods">
+    <classes>
+      <class name="org.pbi.NewTestNg">
+        <methods>
+          <include name="tc8"/>
+          <include name="tc11"/>
+          <include name="tc9"/>
+          <include name="endTime"/>
+          <include name="tc7"/>
+          <include name="tc10"/>
+          <include name="startTime"/>
+          <include name="endChrome"/>
+          <include name="tc5"/>
+          <include name="tc3"/>
+          <include name="tc6"/>
+          <include name="startChrome"/>
+        </methods>
+      </class> <!-- org.pbi.NewTestNg -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
